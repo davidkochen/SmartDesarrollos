@@ -24,7 +24,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-padding-top: 11.5rem;
+  scroll-padding-top: 7rem;
 }
 
 html::-webkit-scrollbar {
@@ -256,6 +256,7 @@ section {
   position: relative;
   background-size: cover !important;
   background-position: center !important;
+  
 }
 
 .home .slide::before {
@@ -271,7 +272,8 @@ section {
 
 .home .slide .content {
   width: 50rem;
-  position: relative;
+  position: relative; 
+
 }
 
 .home .slide .content h3 {
@@ -298,6 +300,7 @@ section {
   width: 7rem;
   line-height: 7rem;
   background: var(--transparent);
+
 }
 
 .home .swiper-button-next:hover,
@@ -315,7 +318,9 @@ section {
   right: 7rem;
 }
 
+
 .about .row {
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -660,7 +665,7 @@ section {
 }
 
 .contact .row form .box {
-  margin: .7rem 0;
+  margin: .3rem 0;
   width: 100%;
   padding: 1.5rem 0;
   border-bottom: var(--border);
